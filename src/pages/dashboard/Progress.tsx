@@ -15,7 +15,7 @@ const attendanceData = [
   { name: 'Missed', value: 3 },
 ];
 
-const COLORS = ['hsl(172, 66%, 35%)', 'hsl(0, 72%, 51%)'];
+const COLORS = ['hsl(217, 91%, 60%)', 'hsl(0, 72%, 51%)'];
 
 const ProgressPage = () => {
   return (
