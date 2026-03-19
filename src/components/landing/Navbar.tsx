@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { GraduationCap, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import ThemeToggle from '@/components/ThemeToggle';
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
