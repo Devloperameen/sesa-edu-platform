@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuthStore } from '@/stores/authStore';
 import {
-  GraduationCap, LayoutDashboard, Calendar, BookOpen, BarChart3,
+  LayoutDashboard, Calendar, BookOpen, BarChart3,
   CreditCard, MessageSquare, Settings, LogOut, Bell, Search, Users
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -36,10 +36,8 @@ const DashboardLayout = ({ children }: { children: ReactNode }) => {
       <aside className="hidden lg:flex flex-col w-64 bg-sidebar border-r border-sidebar-border">
         <div className="p-5">
           <Link to="/" className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded-lg gradient-primary flex items-center justify-center">
-              <GraduationCap className="h-4 w-4 text-primary-foreground" />
-            </div>
-            <span className="font-heading font-bold text-lg text-sidebar-foreground">SESA Home</span>
+            <img src="/logo.png" alt="SESA™ Logo" className="h-8 w-8 rounded-lg object-cover" />
+            <span className="font-heading font-bold text-lg text-sidebar-foreground">SESA<sup className="text-xs">™</sup></span>
           </Link>
         </div>
 

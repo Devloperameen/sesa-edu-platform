@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { GraduationCap, Eye, EyeOff } from 'lucide-react';
+import { Eye, EyeOff } from 'lucide-react';
 import { useAuthStore, UserRole } from '@/stores/authStore';
 
 const Login = () => {
@@ -32,10 +32,8 @@ const Login = () => {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center gap-2 mb-6">
-            <div className="h-10 w-10 rounded-lg gradient-primary flex items-center justify-center">
-              <GraduationCap className="h-5 w-5 text-primary-foreground" />
-            </div>
-            <span className="font-heading font-bold text-2xl text-foreground">SESA Home</span>
+            <img src="/logo.png" alt="SESA™ Logo" className="h-10 w-10 rounded-lg object-cover" />
+            <span className="font-heading font-bold text-2xl text-foreground">SESA<sup className="text-xs">™</sup></span>
           </Link>
           <h1 className="font-heading text-2xl font-bold text-foreground">Welcome back</h1>
           <p className="text-muted-foreground text-sm mt-1">Sign in to continue learning</p>

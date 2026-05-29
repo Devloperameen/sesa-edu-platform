@@ -16,8 +16,8 @@ const HeroSection = () => {
             className="space-y-6"
           >
             <div className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-4 py-1.5 rounded-full text-sm font-medium">
-              <Star className="h-4 w-4 fill-secondary text-secondary" />
-              Trusted by 2,000+ families
+              <img src="/logo.png" alt="SESA™" className="h-4 w-4 rounded-sm object-cover" />
+              Safe Educational & Skill Academy
             </div>
 
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-foreground">
@@ -26,7 +26,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              Connect with expert tutors for personalized home visits or live online sessions. Schedule, learn, and track progress — all in one platform.
+              SESA™ connects you with expert tutors for personalized home visits or live online sessions. Schedule, learn, and track progress — all in one platform.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">
